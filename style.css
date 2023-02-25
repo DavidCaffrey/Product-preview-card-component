@@ -6,7 +6,7 @@ body{
 .card-container{
     width: 95%;
     background-color:hsl(0,0%,100%);
-    margin:1rem auto;
+    margin:4rem auto;
     border-radius: 5px;
     box-shadow: 1px 2px 15px hsl(228,12%,48%)
     
@@ -116,7 +116,51 @@ button:hover{
     }
 }
 
-@media (min-width:1440px){
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .card-container{
+        max-width: 100%;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .card-container{
+        max-width: 80%;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .card-container{
+        max-width: 60%;
+    }
+  
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .card-container{
+        max-width: 50%;
+        background-color:hsl(0,0%,100%);
+        margin:1rem auto;
+        border-radius: 5px;
+        box-shadow: 1px 2px 15px hsl(228,12%,48%);
+        display:flex;
+        flex-direction: row;
+    }
+    img{
+        content: url(/images/image-product-desktop.jpg);
+        max-width: 50%;
+        object-fit: cover;
+    }
+  }
+  @media only screen and (min-width: 1500px) {
     .card-container{
         max-width: 40%;
         background-color:hsl(0,0%,100%);
@@ -131,4 +175,5 @@ button:hover{
         max-width: 50%;
         object-fit: cover;
     }
-}
+  }
+
