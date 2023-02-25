@@ -8,7 +8,7 @@ body{
     background-color:hsl(0,0%,100%);
     margin:1rem auto;
     border-radius: 5px;
-    
+    box-shadow: 1px 2px 15px hsl(228,12%,48%)
     
 }
 
@@ -27,7 +27,7 @@ h1{
 }
 
 h2{
-    color: rgb(100, 99, 99);
+    color:hsl(228,12%,48%);
     font-weight: 500;
     font-size: 1em;
     letter-spacing: .5em;
@@ -38,13 +38,39 @@ p{
     font-size: 1rem;
 }
 
+#discount-price{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 2rem;
+    color:hsl(158, 45%, 28%);
+    margin-right: 1rem;
+    
+}
+
+#full-price{
+    text-decoration: line-through;
+    color:hsl(228,12%,48%);
+}
+
 button{
-    background-color: hsl(158,36%,37%);
+    background-color: hsl(158, 45%, 28%);
     color: white;
     width: 100%;
     padding: 1rem 3rem;
     font-size: 1rem;
+    border:none;
     border-radius: 5px;
+    margin-top: 1rem;
+}
+
+svg{
+    padding-right: .5rem;
+}
+
+
+
+button:hover{
+    background-color: hsl(158, 42%, 38%);
+    cursor:pointer;
 }
 
 .attribution { 
