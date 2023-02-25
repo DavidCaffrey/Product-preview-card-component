@@ -1,0 +1,18 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(32, 76%, 62%);
+}
+
+.card-container{
+    width: 80%;
+    background-color:hsl(0,0%,100%);
+    margin: auto;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+}
+
+h2{
+    color:
+}
